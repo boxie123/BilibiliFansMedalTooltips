@@ -46,7 +46,7 @@
             class: "medal-anchor-tooltip",
             style: "position: absolute; top: 0; left: 0; background-color: #fff; border: 1px solid #000; padding: 5px; z-index: 999; display: flex; align-items: center; text-decoration: none; color: black",
             html: `
-                <a herf="https://live.bilibili.com/${roomId}" target="_blank">
+                <a href="https://live.bilibili.com/${roomId}" target="_blank">
                     <img src="${anchorInfo.face}" style="border-radius: 50%; width: 64px; height: 64px">
                     <div>${anchorInfo.name}</div>
                 </a>
