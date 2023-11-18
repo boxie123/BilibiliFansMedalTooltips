@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Bilibili直播弹幕粉丝勋章弹窗鼠标悬浮显示主播信息
 // @namespace   https://space.bilibili.com/35192025
-// @version     0.01
+// @version     0.02
 // @supportURL  https://space.bilibili.com/35192025
 // @grant       none
 // @author      铂屑
