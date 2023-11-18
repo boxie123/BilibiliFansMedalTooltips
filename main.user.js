@@ -44,11 +44,11 @@
 
         let tooltip = $('<div>', {
             class: "medal-anchor-tooltip",
-            style: "position: absolute; top: 0; left: 0; background-color: #fff; border: 1px solid #000; padding: 5px; z-index: 999; display: flex; align-items: center; text-decoration: none; color: black",
+            style: "position: absolute; width: 80px; top: 16px; left: -12px; background-color: rgb(255, 255, 255); border: 1px solid #000; padding: 5px; z-index: 999; display: flex; align-items: center; text-decoration: none; color: black; border-radius: 8px",
             html: `
                 <a href="https://live.bilibili.com/${roomId}" target="_blank">
-                    <img src="${anchorInfo.face}" style="border-radius: 50%; width: 64px; height: 64px">
-                    <div>${anchorInfo.name}</div>
+                    <img src="${anchorInfo.face}" style="border-radius: 50%; width: 28px; height: 28px">
+                    <span style="color: #FF6699; font-weight: bold; text-align: left; width: 50px; font-size: 10px; display: inline-block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: absolute; line-height: 32px; left: 36px">${anchorInfo.name}</span>
                 </a>
             `
         });
