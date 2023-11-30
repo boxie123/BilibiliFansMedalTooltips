@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Bilibili直播弹幕粉丝勋章弹窗鼠标悬浮显示主播信息
 // @namespace   https://space.bilibili.com/35192025
-// @version     0.02
+// @version     0.03
 // @supportURL  https://space.bilibili.com/35192025
 // @grant       none
 // @author      铂屑
@@ -44,7 +44,7 @@
 
         let tooltip = $('<div>', {
             class: "medal-anchor-tooltip",
-            style: "position: absolute; width: 80px; top: 16px; left: -12px; background-color: rgb(255, 255, 255); border: 1px solid #000; padding: 5px; z-index: 999; display: flex; align-items: center; text-decoration: none; color: black; border-radius: 8px",
+            style: "position: absolute; width: 80px; top: -45px; left: -12px; background-color: rgb(255, 255, 255); border: 1px solid #000; padding: 5px; z-index: 999; display: flex; align-items: center; text-decoration: none; color: black; border-radius: 8px",
             html: `
                 <a href="https://live.bilibili.com/${roomId}" target="_blank">
                     <img src="${anchorInfo.face}" style="border-radius: 50%; width: 28px; height: 28px">
